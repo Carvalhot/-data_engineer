@@ -1,0 +1,11 @@
+#
+# Arquivo com exemplos de uso de calendários
+#
+import calendar
+def imprimeMes():
+    for mes in calendar.month_name:
+        print(mes)
+    print('-'*30)
+    for dia in calendar.day_name:
+        print(dia)
+imprimeMes()
